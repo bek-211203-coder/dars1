@@ -7,7 +7,6 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        {/* Updated Route definitions */}
         <Route path="/button-pagination" element={<ButtonPagination />} />
         <Route path="/scroll-pagination" element={<ScrollPagination />} />
         <Route path="/" element={<ButtonPagination />} /> {/* Default route */}
